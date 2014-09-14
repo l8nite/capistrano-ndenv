@@ -3,13 +3,13 @@ lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |gem|
-  gem.name          = "capistrano-rbenv"
-  gem.version       = '2.0.2'
-  gem.authors       = ["Kir Shatrov", "Yamashita Yuu"]
-  gem.email         = ["shatrov@me.com", "yamashita@geishatokyo.com"]
-  gem.description   = %q{rbenv integration for Capistrano}
-  gem.summary       = %q{rbenv integration for Capistrano}
-  gem.homepage      = "https://github.com/capistrano/rbenv"
+  gem.name          = "capistrano-ndenv"
+  gem.version       = '1.0.0'
+  gem.authors       = ["Shaun Guth"]
+  gem.email         = ["shaun.guth@gmail.com"]
+  gem.description   = %q{ndenv integration for Capistrano}
+  gem.summary       = %q{ndenv integration for Capistrano}
+  gem.homepage      = "https://github.com/l8nite/capistrano-ndenv"
 
   gem.files         = `git ls-files`.split($/)
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
@@ -17,5 +17,4 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency 'capistrano', '~> 3.1'
   gem.add_dependency 'sshkit', '~> 1.3'
-
 end
