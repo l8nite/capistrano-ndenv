@@ -8,8 +8,9 @@ Gem::Specification.new do |gem|
   gem.authors       = ["Shaun Guth"]
   gem.email         = ["shaun.guth@gmail.com"]
   gem.description   = %q{ndenv integration for Capistrano}
-  gem.summary       = %q{ndenv integration for Capistrano}
+  gem.summary       = %q{This gem lets you use ndenv for node/npm integration in Capistrano}
   gem.homepage      = "https://github.com/l8nite/capistrano-ndenv"
+  gem.licenses      = ['MIT']
 
   gem.files         = `git ls-files`.split($/)
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
