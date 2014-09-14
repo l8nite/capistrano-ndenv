@@ -2,6 +2,10 @@
 
 This gem provides idiomatic ndenv support for Capistrano 3.x (and 3.x *only*).
 
+# Why you might want it?
+
+If you need to execute node or npm from capistrano and you prefer ndenv over nvm
+
 ## Installation
 
 Add this line to your application's Gemfile:
