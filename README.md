@@ -2,6 +2,8 @@
 
 This gem provides idiomatic ndenv support for Capistrano 3.x (and 3.x *only*).
 
+*NOTE*: This gem is a rip-off of https://github.com/capistrano/rbenv - give them the credit.
+
 # Why you might want it?
 
 If you need to execute node or npm from capistrano and you prefer ndenv over nvm
