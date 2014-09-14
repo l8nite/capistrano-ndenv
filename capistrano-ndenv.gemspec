@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |gem|
   gem.name          = "capistrano-ndenv"
-  gem.version       = '1.0.0'
+  gem.version       = '1.0.1'
   gem.authors       = ["Shaun Guth"]
   gem.email         = ["shaun.guth@gmail.com"]
   gem.description   = %q{ndenv integration for Capistrano}
