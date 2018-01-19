@@ -37,7 +37,7 @@ namespace :load do
       ndenv_path ||= if fetch(:ndenv_type, :user) == :system
         "/usr/local/ndenv"
       else
-        "~/.ndenv"
+        "$HOME/ndenv"
       end
     }
 
